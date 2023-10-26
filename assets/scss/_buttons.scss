@@ -1,0 +1,47 @@
+.mainBtn {
+    font-weight: 700;
+    color: black;
+    background-position: 100% 0;
+    box-shadow: 0 4px 15px 0 rgba($theme1, 0.5);
+    background-color: white;
+    transition: all ease-in-out 0.4s;
+    padding: 0.5rem 2rem;
+    font-size: 14px;
+    box-shadow: none;
+    text-decoration: none;
+    color: $white;
+    border: none;
+    border-radius: 50px;
+    &:hover{
+        background-color: darkgray;
+        color: white !important;
+    }
+    
+    &.googleBtn {
+        background: transparent;
+        color: $black;
+        border: 1px solid rgba($theme1, 0.5);
+    }
+}
+
+
+.opetionBtn {
+    background-color: $white;
+    border: 1px solid $black;
+    font-weight: 600;
+    transition: all ease-in-out 0.3s;
+    color: rgba($black, 0.8);
+    &:hover{
+        color: $theme2;
+        border-color: $theme1;
+    }
+}
+
+
+
+
+
+
+
+
+
